@@ -24,7 +24,7 @@ The analysis used two datasets provided by the company:
 
 1. Premium Data
 
--Customer information
+- Customer information
 
 - Policy details
 
