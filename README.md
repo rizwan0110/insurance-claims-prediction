@@ -44,7 +44,6 @@ The analysis used two datasets provided by the company:
 
 These datasets were merged to create a unified dataset containing both customers with claims and customers without claims.
 
-** The dataset cannot be shared due to confidentiality agreements with the collaborating company. **
 
 # Methodology
 
@@ -63,20 +62,22 @@ New features were created to capture customer behavior patterns, such as:
 - Claims per year
 - Claims per object
 - Models Evaluated
-Several classification models were tested:
 
-Logistic Regression
-Random Forest
-Support Vector Machine (SVM)
-K-Nearest Neighbors
-Gradient Boosted Trees
-XGBoost
-Naive Bayes
-## Models were evaluated using:
+# Classification Models Tested 
 
-Accuracy
-Cohen’s Kappa
-ROC-AUC
+- Logistic Regression
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors
+- Gradient Boosted Trees
+- XGBoost
+-  Naive Bayes
+-  
+# Metrcis Used for evaluation 
+
+- Accuracy
+- Cohen’s Kappa
+- ROC-AUC
 
 # Results
 
@@ -98,23 +99,7 @@ The model was able to classify whether a customer is likely to file an insurance
 
 - Statistical evaluation metrics
 
-# My Contribution
 
-This was a team project, and I contributed across the full pipeline:
+  
+_The dataset and the code cannot be shared/uploaded due to confidentiality agreements with the collaborating company._
 
-  Data exploration
-  
-  Data preparation and cleaning
-  
-  Feature engineering
-  
-  Feature selection
-  
-  Model training and evaluation
-  
-  Result interpretation
-
-
-Developing time-based models to predict claims within specific periods
-
-Building separate models for different insurance policy types
